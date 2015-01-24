@@ -1,0 +1,37 @@
+---
+receipt: Military Acquisition and Procurement
+date: 4 ABY
+poc:
+  rank: Maj. (O-4)
+  name: Hewex
+
+items:
+  - part_no:   74-Z
+    descrip:   Speeder Bike
+    mfg:       Aratech Repulsor Company
+    price:     8000
+    condition: new
+    quantity:  4
+
+  - part_no:   AT-ST
+    descrip:   All Terrain Scout Transport
+    mfg:       Balmorran Arms
+    price:     3500000
+    quantity:  1
+
+bill-to:  &id001
+  post: |
+        Tempest Force
+        Shield Generator
+  body: Forest Moon
+  system: Endor
+  sector: Moddell
+  region: Outer Rim Territories
+
+ship-to:  *id001
+
+specialDelivery:  >
+  Near Bright Tree Village.
+  AT-ST walkers will provide support.
+  Note: Native creatures hostile.
+...
