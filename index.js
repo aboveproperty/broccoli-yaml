@@ -2,7 +2,7 @@
 
 var Filter = require('broccoli-filter');
 var Yaml = require('js-yaml');
-var _ = require('lodash');
+var merge = require('lodash.merge');
 
 function YamlFilter(inputTree, options) {
   if (!(this instanceof YamlFilter)) {
@@ -10,7 +10,7 @@ function YamlFilter(inputTree, options) {
   }
 
   this.inputTree = inputTree;
-  this.options = _.merge({}, {
+  this.options = merge({}, {
     space: 4
   }, options);
 

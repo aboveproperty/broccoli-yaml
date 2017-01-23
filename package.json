@@ -1,6 +1,6 @@
 {
   "name": "broccoli-yaml",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Broccoli filter that converts YAML to JSON.",
   "main": "index.js",
   "scripts": {
@@ -15,15 +15,15 @@
     "yaml",
     "json"
   ],
-  "author": "Erik Reedstrom <erik.reedstrom@aboveproperty.com>",
+  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/aboveproperty/broccoli-yaml/issues"
   },
   "dependencies": {
-    "broccoli-filter": "^0.1.10",
-    "js-yaml": "^3.2.5",
-    "lodash": "^2.4.1"
+    "broccoli-filter": "^1.2.4",
+    "js-yaml": "^3.7.0",
+    "lodash.merge": "^4.6.0"
   },
   "devDependencies": {
     "mocha": "~2.1.0",
