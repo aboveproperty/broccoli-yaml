@@ -28,13 +28,7 @@ YamlFilter.prototype.extensions = ['yaml', 'yml'];
 YamlFilter.prototype.targetExtension = 'json';
 
 YamlFilter.prototype.processString = function (contents/*, relativePath*/) {
-
-  try {
-    return JSON.stringify(Yaml.safeLoad(contents), null, this.options.space);
-
-  } catch (e) {
-    console.warn(e);
-  }
+  return JSON.stringify(Yaml.safeLoad(contents), null, this.options.space);
 };
 
 module.exports = YamlFilter;
