@@ -1,4 +1,7 @@
-# broccoli-yaml [![Build Status](https://travis-ci.org/aboveproperty/broccoli-yaml.svg?branch=master)](https://travis-ci.org/aboveproperty/broccoli-yaml)
+[![Build Status](https://travis-ci.org/aboveproperty/broccoli-yaml.svg?branch=master)](https://travis-ci.org/aboveproperty/broccoli-yaml)
+[![npm version](https://badge.fury.io/js/broccoli-yaml.svg)](http://badge.fury.io/js/broccoli-yaml)
+
+# broccoli-yaml
 
 > A Broccoli filter that converts YAML to JSON using [js-yaml](https://github.com/nodeca/js-yaml)
 
