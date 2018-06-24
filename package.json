@@ -1,6 +1,6 @@
 {
   "name": "broccoli-yaml",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A Broccoli filter that converts YAML to JSON.",
   "main": "index.js",
   "scripts": {
