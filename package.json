@@ -21,8 +21,8 @@
     "url": "https://github.com/aboveproperty/broccoli-yaml/issues"
   },
   "dependencies": {
-    "broccoli-filter": "^1.2.4",
-    "js-yaml": "^3.7.0",
+    "broccoli-persistent-filter": "^1.4.3",
+    "js-yaml": "^3.12.0",
     "lodash.merge": "^4.6.0"
   },
   "devDependencies": {
